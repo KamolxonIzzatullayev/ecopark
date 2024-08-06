@@ -311,28 +311,22 @@
 
   $('#counter-block').ready(() => {
     $('.room').animationCounter({
-      start: 0,
-      end: 264,
-      step: 2,
-      delay: 10,
-    });
-    $('.staff').animationCounter({
-      start: 12,
-      end: 575,
-      step: 2,
-      delay: 15,
+      start: 1,
+      end: 30,
+      step: 1,
+      delay: 1,
     });
     $('.restaurant').animationCounter({
-      start: 25,
-      end: 487,
-      step: 2,
+      start: 1,
+      end: 2000,
+      step: 27,
       delay: 12,
     });
     $('.award').animationCounter({
-      start: 25,
-      end: 320,
+      start: 1,
+      end: 32,
       step: 1,
-      delay: 11,
+      delay: 1,
     });
   });
 
